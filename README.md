@@ -67,7 +67,7 @@ devtools::install_github("willhahah/veccal")
 
 ## Example
 
-There is only one function called cosine\_similarity in the veccal
+There is only one function called `cosine_similarity()` in the veccal
 package right now, so I will show examples for the cosine\_similarity
 sunction.
 
