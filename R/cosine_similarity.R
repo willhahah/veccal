@@ -24,10 +24,10 @@ cosine_similarity <- function (x, y, verbose = FALSE, ...) {
     stop('Your input contains NA!')                       # NA alarm
   } else {
     if (verbose) cat("Calculating the dot product...\n")
-    dot_pro = dot(x, y)                                   # inner product of the 2 vectors
+    dot_pro = pracma::dot(x, y)                                   # inner product of the 2 vectors
     if (verbose) cat("The dot product is", dot_pro,"\n")
     if (verbose) cat("Calculating the length product...\n")
-    len = sqrt(dot(x,x))*sqrt(dot(y,y))                   # product of 2 vector length
+    len = sqrt(pracma::dot(x,x))*sqrt(pracma::dot(y,y))                   # product of 2 vector length
     if (verbose) cat("The length product is", len,"\n")
     if (verbose) cat("Calculating the cosine similarity...\n")
     cos_sim = dot_pro/len                                 # return cosine similarity
