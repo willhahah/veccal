@@ -12,7 +12,7 @@ knitr::opts_chunk$set(
   out.width = "100%"
 )
 ```
-# For assignment
+# For the assignment:
 How did I make each part of my R package?
 
 My reference: https://stat545.stat.ubc.ca/notes03b/

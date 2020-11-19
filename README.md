@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# For assignment
+# For the assignment:
 
 How did I make each part of my R package?
 
