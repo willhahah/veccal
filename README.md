@@ -10,39 +10,39 @@ My reference: <https://stat545.stat.ubc.ca/notes03b/>
 1.  Load devtools package in the console.
 
 2.  Create a package using `create_tidy_package("veccal")`. One could
-    also use create\_package(), but using create\_tidy\_package() will
+    also use `create_package()`, but using `create_tidy_package()` will
     give us a better sructured package. Please note that some files may
-    be located at different places using create\_tidy\_package(), eg.
-    CODE\_OF\_CONDUCT.md is now under the /github folder. There would be
+    be located at different places using `create_tidy_package()`, eg.
+    `CODE_OF_CONDUCT.md` is now under the /github folder. There would be
     also some re-writing if some files are created again, but it does
     not matter much.
 
-3.  use\_git() to create local git and then link it to a empty public
+3.  `use_git()` to create local git and then link it to a empty public
     github repository.
 
-4.  Make a new R script using use\_r(“cosine\_similarity”), and then
-    write my only function here. Remember to use pracma::dot() when
-    using the dot() function, and the dependency will be added later.
+4.  Make a new R script `using use_r("cosine_similarity")`, and then
+    write my only function here. Remember to use `pracma::dot()` when
+    using the `dot()` function, and the dependency will be added later.
 
-5.  use\_package(“pracma”), so that the dependancy is added.
+5.  `use_package("pracma")`, so that the dependancy is added.
 
-6.  Use MIT license by using use\_mit\_license(“Will Huang”) in the
+6.  Use MIT license by using `use_mit_license("Will Huang")` in the
     console.
 
 7.  Insert roxygen skeletonin the function and edit it, then run
-    document().
+    `document()`.
 
 8.  Install and restart, try to use the function inside the package.
 
-9.  Run use\_testthat(“cosine\_similarity”) to create a test file for
+9.  Run `use_testthat("cosine_similarity")` to create a test file for
     the function, and edit test functions inside. Run check button
     after.
 
-10. Add README using use\_readme\_rmd(), and render it using
-    build\_readme() after editing.
+10. Add README using `use_readme_rmd()`, and render it using
+    `build_readme()` after editing.
 
-11. Make a vignette with use\_vignette(). Then render with
-    build\_vignettes().
+11. Make a vignette with `use_vignette()`. Then render with
+    `build_vignettes()`.
 
 12. Often commit and push.
 

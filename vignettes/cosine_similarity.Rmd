@@ -18,7 +18,7 @@ knitr::opts_chunk$set(
 library(veccal)
 ```
 
-This is how cosine_similarity works:
+This is how `cosine_similarity()` works:
 
 ```{r}
 a<-cosine_similarity(c(1,0), c(1,1))
