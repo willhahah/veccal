@@ -19,7 +19,7 @@ My reference: https://stat545.stat.ubc.ca/notes03b/
 
 1. Load devtools package in the console.
 
-2. Create a package using create_tidy_package("veccal"). One could also use create_package(), but using create_tidy_package() will give us a better sructured package. Please note that some files may be located at different places using create_tidy_package(), eg. CODE_OF_CONDUCT.md is now under the /github folder. There would be also some re-writing if some files are created again, but it does not matter much.
+2. Create a package using `create_tidy_package("veccal")`. One could also use create_package(), but using create_tidy_package() will give us a better sructured package. Please note that some files may be located at different places using create_tidy_package(), eg. CODE_OF_CONDUCT.md is now under the /github folder. There would be also some re-writing if some files are created again, but it does not matter much.
 
 3. use_git() to create local git and then link it to a empty public github repository.
 

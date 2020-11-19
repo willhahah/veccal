@@ -9,7 +9,7 @@ My reference: <https://stat545.stat.ubc.ca/notes03b/>
 
 1.  Load devtools package in the console.
 
-2.  Create a package using create\_tidy\_package(“veccal”). One could
+2.  Create a package using `create_tidy_package("veccal")`. One could
     also use create\_package(), but using create\_tidy\_package() will
     give us a better sructured package. Please note that some files may
     be located at different places using create\_tidy\_package(), eg.
