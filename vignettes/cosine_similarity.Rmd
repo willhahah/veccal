@@ -1,0 +1,28 @@
+---
+title: "cosine_similarity"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{cosine_similarity}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(veccal)
+```
+
+This is how cosine_similarity works:
+
+```{r}
+a<-cosine_similarity(c(1,0), c(1,1))
+a
+```
+
+The function calculates the cosine value of the angle between the 2 inputted vectors.
