@@ -65,13 +65,6 @@ You can install the released version of veccal from github with:
 devtools::install_github("willhahah/veccal")
 ```
 
-And the development version from [GitHub](https://github.com/) with:
-
-``` r
-# install.packages("devtools")
-devtools::install_github("willhahah/veccal")
-```
-
 ## Example
 
 There is only one function called cosine\_similarity in the veccal
