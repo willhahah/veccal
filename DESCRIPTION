@@ -1,12 +1,11 @@
 Package: veccal
-Title: What the Package Does (One Line, Title Case)
+Title: Vector Calculations
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Will",
+           family = "Huang",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+           email = "willhuang9509@gmail.com")
 Description: What the package does (one paragraph).
 License: MIT + file LICENSE
 Suggests: 

@@ -1,3 +1,16 @@
+#' Cosine Similarity
+#'
+#' @param x A numeric vector containing no NA
+#' @param y A numeric vector (containing no NA) of the same size as `x`
+#' @param verbose A logic value (TRUE or FALSE, default is FALSE). When it is TRUE, the function will show calculation steps.
+#' @param ... Other arguments to be passed to methods, that are not currently used.
+#'
+#' @return
+#' A number that is the cosine value of the angle between 2 same-size vectors `x' and `y`. Output range is between -1 and 1.
+#' @export
+#'
+#' @examples
+#' cosine_similarity(c(1,0), c(1,1))
 cosine_similarity <- function (x, y, verbose = FALSE, ...) {
   if (!(is.vector(x) && is.vector(y))) {
     stop('Your input contains non-vector!')               # non-vector alarm
